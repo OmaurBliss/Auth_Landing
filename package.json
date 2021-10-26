@@ -1,19 +1,25 @@
 {
   "name": "auth_page",
   "version": "1.0.0",
-  "description": "",
+  "description": "Authorization page",
   "main": "index.js",
   "scripts": {
+    "start": "start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Omaur Bliss",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1"
+    "i": "^0.3.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "moongoose": "0.0.5",
+    "npm": "^8.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
